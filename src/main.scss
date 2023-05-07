@@ -109,12 +109,12 @@ body {
     }
 
     &__point {
-        .black {
+        .point {
             color: $Dark-gray-blue;
             font-weight: 700;
         };
 
-        .gris {
+        .max-point {
             color: $Light-lavender;
         }
     }

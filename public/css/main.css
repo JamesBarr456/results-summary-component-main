@@ -105,11 +105,11 @@ body {
 .ability__icon .icon {
   margin-right: 10px;
 }
-.ability__point .black {
+.ability__point .point {
   color: hsl(224, 30%, 27%);
   font-weight: 700;
 }
-.ability__point .gris {
+.ability__point .max-point {
   color: hsl(241, 100%, 89%);
 }
 .ability--reaction {
