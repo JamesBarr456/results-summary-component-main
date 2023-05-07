@@ -1,0 +1,168 @@
+/* Gradientes */
+/*(background)*/
+/*(background)*/
+/*(circle)*/
+/*(circle)*/
+/* Neutral */
+/* --------         -------- */
+/* -------- Fuentes -------- */
+@font-face {
+  font-family: "HankenGrotesk";
+  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "HankenGrotesk", "Arial", "Helvetica";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  box-shadow: 10px 20px 20px #f5f5ff;
+  border-radius: 20px;
+}
+.card__left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 25px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  padding: 20px;
+}
+.card__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+.title--left {
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+}
+
+.score {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 100%;
+  background: linear-gradient(to bottom, hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+  margin-bottom: 20px;
+}
+.score__big {
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.score__small {
+  font-size: 10px;
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+}
+
+.feedback__title {
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 20px;
+}
+.feedback__text {
+  font-size: 15px;
+  color: hsl(241, 100%, 89%);
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+.ability {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.ability__icon {
+  display: flex;
+  font-weight: 500;
+}
+.ability__icon .icon {
+  margin-right: 10px;
+}
+.ability__point .black {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
+}
+.ability__point .gris {
+  color: hsl(241, 100%, 89%);
+}
+.ability--reaction {
+  background-color: #fff0f0;
+  color: hsl(0, 100%, 67%);
+}
+.ability--memory {
+  background-color: floralwhite;
+  color: hsl(39, 100%, 56%);
+}
+.ability--verbal {
+  background-color: azure;
+  color: hsl(166, 100%, 37%);
+}
+.ability--visual {
+  background-color: #f5f5ff;
+  color: hsl(234, 85%, 45%);
+}
+
+.btn {
+  border-radius: 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  padding: 15px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: inherit;
+}
+.btn:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+@media (max-width: 720px) {
+  body {
+    min-height: auto;
+  }
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card__left {
+    width: 100%;
+    border-radius: 0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 15px;
+  }
+  .card__right {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

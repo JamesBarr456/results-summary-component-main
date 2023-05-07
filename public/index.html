@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+
+<body>
+  <div class="card">
+    <div class="card__left">
+      <h3 class="title title--left"> Your Result</h3>
+      <div class="score">
+        <p class="score__big">76</p>
+        <span class="score__small">of 100</span>
+      </div>
+      <div class="feedback">
+        <h2 class="feedback__title">Great</h2>
+        <p class="feedback__text"> You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </div>
+    <div class="card__right">
+      <h3 class="title">Summary</h3>
+      <!-- Bloque de habilidades-->
+      <div class="ability ability--reaction">
+        <div class="ability__icon">
+          <img  class="icon" src="./assets/images/icon-reaction.svg" alt="reaction">
+          <span>Reaction</span>
+        </div>
+        <div class="ability__point">
+          <span class="black">80 <span class="gris">/ 100</span></span>
+        </div>
+      </div>
+      <div class="ability ability--memory">
+        <div class="ability__icon">
+          <img  class="icon" src="./assets/images/icon-memory.svg" alt="memory">
+          <span>Memory</span>
+        </div>
+        <div class="ability__point">
+          <span class="black">92 <span class="gris">/ 100</span></span>
+        </div>
+      </div>
+      <div class="ability ability--verbal">
+        <div class="ability__icon">
+          <img   class="icon" src="./assets/images/icon-verbal.svg" alt="verbal">
+          <span>Verbal</span>
+        </div>
+        <div class="ability__point">
+          <span class="black">61 <span class="gris">/ 100</span></span>
+        </div>
+      </div>
+      <div class="ability ability--visual">
+        <div  class="ability__icon">
+          <img  class="icon" src="./assets/images/icon-visual.svg" alt="visual">
+          <span>Visual</span>
+        </div>
+        <div class="ability__point">
+          <span class="black">72 <span class="gris">/ 100</span></span>
+        </div>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+</body>
+</html>
